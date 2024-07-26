@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PREDICT</title>
+  <style>
+    nav{
+    display:flex;
+    padding:2% 6%;
+    justify-content:space-between;
+    align-items:center;
+    height :23px;
+}
+nav img{
+    width:80px;
+    border-radius: 50px;
+}
+.nav-links ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:15px;
+}
+.nav-links ul li::after{
+    content:' ';
+    width:0%;
+    height:2px;
+    background:white;
+    display:block;
+    margin:auto;
+    transition:0.5s;
+}
+.nav-links ul li:hover::after{
+    width:100%;
+}
+.city-col
+{
+    flex-basis:32%;
+    border-radius:10px;
+    position:relative;
+    overflow:hidden;
+    cursor:pointer;
+}
+.city-col img{
+    width:100%;
+}
+.layer
+{
+    margin-top:0;
+    background:transparent;
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    transition:0.5s;
+}
+.layer:hover{
+    background:tomato;
+}
+h3{
+    text-align:center;
+    font-weight:600;
+    margin:23px 0;
+    font-family:Arial;
+    color:white;
+}
+.city-col img{
+    width:100%;
+    display:block;
+    margin-left:9px;
+    margin-top:13px;
+}
+.row{
+    display:flex;
+    justify-content:center;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/clg.jpg);
+    background-position:center;
+    background-size:cover;
+}
+  </style>
+   <!-- Font Awesome Cdn Link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="images/logo.jpg" alt="Logo"></a>
+    </nav>
+    <div class="row">
+    <div class="city-col">
+        <a href="bangalore.html"><img src="images/bangalore.jfif">
+        <div class="layer">
+            <h3>BANGALORE</h3>
+        </div>
+    </a>
+    </div>
+    <div class="city-col">
+        <a href="chennai.html"><img src="images/chennai.jpg">
+        <div class="layer">
+            <h3>CHENNAI</h3>
+        </div>
+    </a>
+    </div>
+</div>
+<div class="row">
+    <div class="city-col">
+        <a href="mumbai.html"><img src="images/mumbai.jpg">
+        <div class="layer">
+            <h3>MUMBAI</h3>
+        </div>
+    </a>
+    </div>
+    <div class="city-col">
+        <a href="delhi.html"><img src="images/delhi.jpg">
+        <div class="layer">
+            <h3>DELHI</h3>
+        </div>
+    </a>
+    </div>
+</div>
+</body>
+</html>

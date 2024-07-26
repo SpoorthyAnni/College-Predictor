@@ -1,0 +1,49 @@
+*{
+    text-decoration:none;
+    color:black;
+}
+h1{
+    color:black;
+    align-items: center;
+    font-family:copperplate gothic;
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+    width:80%;
+    background-color:aquamarine;
+    padding-top:0px;
+    padding-bottom:40px;
+    margin-top:0px;
+    margin-bottom:5px;
+    margin-left:150px;
+    cursor:pointer;
+}
+h2{
+    font-family:copperplate gothic;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    vertical-align:middle;
+    color:black;
+    background-color:tomato;
+    padding:30px 30px 30px 30px;
+    margin-left:149px;
+    margin-top:5px;
+    margin-bottom:25px;
+    display:inline-block;
+}
+h3{
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 30px;
+    text-align:center;
+    margin-top: 20%;
+    background-color: rgb(3, 3, 95);
+    color:yellow;
+    padding:20px 20px;
+    margin-left:250px;
+    margin-right:250px;
+}
+#button{
+    border-radius:3em;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UVCE</title>
+    <style>
+        *{
+    margin-left:0px;
+    margin-top:0px;
+}
+.heading{
+    width:99.99%;
+}
+.pic{
+    width:500px;
+    margin-top:30px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.connect{
+    width:60%;
+}
+.ranking{
+    width:800px;
+}
+h1{
+    font-size:20px;
+    margin-left:10px;
+    font-family:Arial;
+}
+.facility{
+    width:600px;
+    margin-left:5px;
+}
+.place{
+    width:700px;
+}
+.comp{
+    width:600px;
+}
+.high{
+    width:500px;
+}
+nav{
+    display:flex;
+    padding:1% 4%;
+    justify-content:space-between;
+    align-items:center;
+    background-color:black;
+}
+nav img{
+    width:70px;
+    border-radius: 50px;
+}
+.nav-links{
+    flex:1;
+    text-align:right;
+}
+.nav-links ul li{
+    list-style:none;
+    display:inline-block;
+    padding:8px 12px;
+    position:relative;
+}
+.nav-links ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-links ul li::after{
+    content:' ';
+    width:0%;
+    height:2px;
+    background:rgb(120, 120, 255);
+    display:block;
+    margin:auto;
+    transition:0.5s;
+}
+.nav-links ul li:hover::after{
+    width:100%;
+}
+button {
+    text-decoration-line:underline;
+        margin-top:7px;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+	    font-family: Verdana;
+	    background-color: orangered;
+	    color: white;
+	    border: none;
+	    padding-top: 8px;
+	    padding-bottom: 8px;
+	    padding-left: 16px;
+	    padding-right: 16px;
+	    border-radius: 6px;
+	    cursor: pointer;
+	  }
+      .fees{
+        width:800px;
+      }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.jpg" alt="Logo">
+        <div class="nav-links">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#connect">CONNECTIVITY</a></li>
+                <li><a href="#facility">FACILITIES</a></li>
+                <li><a href="#ranking">RANKING</a></li>
+                <li><a href="#fees">FEES</a></li>
+                <li><a href="#place">PLACEMENTS</a></li>
+                <li><a href="#comp">PAST RECRUITERS</a></li>
+            </ul>
+        </div>
+    </nav>
+    <img class="heading" src="images/uvce heading.PNG">
+    <img class="pic" src="images/uvce.jpg">
+    <a href="https://uvce.ac.in/" target="_blank"><button>CLICK HERE TO GO TO THE OFFICIAL WEBSITE</button></a>
+    <br><br><br><br><br><h1 id="connect"><br>CONNECTIVITY</h1>
+    <br><img class="connect" src="images/uvce connectivity.PNG">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.945080601949!2d77.58469841482203!3d12.975364490853442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1672fcfc6af1%3A0x9c2dc517c9231979!2sUVCE!5e0!3m2!1sen!2sin!4v1677566276950!5m2!1sen!2sin" width="1920" height="370" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br><br><br><br><br><h1 id="facility"><br>CAMPUS FACILITIES</h1>
+    <br><img class="facility" src="images/uvce facility.PNG">
+    <br><br><br><br><br><h1 id="ranking"><br>RANKING</h1>
+    <br><br><img class="ranking" src="images/uvce ranking.PNG">
+    <br><br><br><br><br><h1 id="fees"><br>FEES</h1>
+    <br><br><img class="fees" src="images/uvce fees.PNG">
+    <br><br><br><br><br><h1 id="place"><br>PLACEMENTS</h1>
+    <br><img class="high" src="images/uvce highest.PNG">
+    <br><img class="place" src="images/uvce placement.PNG">
+    <br><br><br><br><br><h1 id="comp"><br>PAST RECRUITERS</h1>
+    <br><img class="comp" src="images/uvce comp.PNG">
+</body>
+</html>
